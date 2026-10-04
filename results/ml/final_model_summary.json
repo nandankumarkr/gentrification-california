@@ -1,0 +1,14 @@
+{
+    "dataset": "data/analysis_dataset.csv",
+    "samples": 6973,
+    "input_features": 8,
+    "target": "gentrification",
+    "train_samples": 5578,
+    "test_samples": 1395,
+    "best_model": "XGBoost",
+    "best_f1_score": 0.5537340619307832,
+    "best_accuracy": 0.6487455197132617,
+    "best_precision": 0.495114006514658,
+    "best_recall": 0.628099173553719,
+    "best_roc_auc": 0.6981792780615254
+}
