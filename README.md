@@ -122,6 +122,9 @@ cd gentrification-california
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install pandas numpy scikit-learn xgboost matplotlib joblib requests
+#for the dashboard
+pip install streamlit pandas numpy plotly scikit-learn xgboost joblib
+streamlit run app.py   
 ```
 
 ### Run the pipeline
@@ -181,4 +184,4 @@ python predict.py
 ## Author
 
 Nandan Kumar K R
-Madisetty Roshini
+Roshini Madisetty
